@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+@font-face {
+	font-family: 'sensei';
+	src: url("fonte/Sensei-Medium.ttf") format("ttf"),
+        url("fonte/Sensei-Medium.woff") format("woff"),
+				url("fonte/ecsus.ttf") format("ttf");
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(plantafodase.png);
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+}
+
+p {
+  font-size: 18px;
+}
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
+/*--- Nav ---*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.navbar-nav li {
+	padding-left: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #4fbd6c;
+}
+
+button a {
+  text-decoration: none;
+}
+
+.borda-quadrada {
+	border-radius: 0;
+}
+
+.nome-usuario {
+	color: white;
+	text-transform: uppercase;
+	word-spacing: 3px;
+	padding-top: 2px;
+}
+
+/*--- Início ---*/
+
+
+.texto-banner {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-shadow: 4px 4px 8px black;
+	font-family: 'sensei';
+}
+
+.texto-banner h3 {
+  font-size: 34px;
+  text-shadow: 4px 4px 8px black;
+  padding: 20px;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+/*--- Benefícios --*/
+
+.narrow {
+  width: 75%;
+  margin: 30px auto;
+}
+
+.heading-underline {
+  width: 60px;
+  height: 3px;
+  background-color: #4fbd6c;
+  margin: 0 auto 2rem;
+}
+
+.beneficio-img {
+  border: solid 1px black;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.imagem-letra {
+	width: 600px;
+  margin-top: 110px;
+}
+
+
+/*--- Sobre ---*/
+
+.meiocinza {
+  margin-bottom: 0;
+  padding: 30px;
+  border-radius: 0;
+  background-color: #e6e6e6;
+}
+
+h3.heading {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+.sobre-logo {
+  padding-top: 75px;
+}
+
+/*-- Download --*/
+
+.download-info {
+  line-height: 7px;
+}
+
+.btn {
+  background-color: #4fbd6c;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  background-color: #429658;
+  border: 1px solid black;
+}
+
+.botao-down {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  border-width: small;
+  border-radius: 0;
+}
+
+.download-botao button {
+  margin: 35px;
+}
+
+.hr-download {
+  margin-bottom: 50px;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  margin-top:25px;
+}
+
+/*-- Comentários --*/
+
+.direitavolver {
+    float:right !important;
+}
+
+.ver-com {
+	margin-top: 15px;
+}
+
+.comentario{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+/*-- Fonte --*/
+
+
+.btn-fonte {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  border-width: small;
+  border-radius: 0;
+  margin-bottom: 45px;
+}
+
+u {
+color: black !important;
+}
+
+
+/*-- Contato --*/
+
+footer {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 40px;
+  line-height: 12px;
+	margin-top: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+.hr-footer {
+  background-color: #919191;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 58px;
+  margin: 10px;
+}
+
+footer a:hover {
+  color: #4fbd6c!important;
+}
+
+/*-- Media Queries --*/
+
+@media (max-width: 767px) {
+
+.texto-banner {
+	  top: 30%;
+	}
+
+.logo {
+  font-size: 100px;
+
+}
+.texto-banner h3 {
+  font-size: 40px;
+  padding: 15px;
+}
+.btn-lg {
+  font-size: 28px;
+}
+
+.narrow {
+  width: 100%;
+}
+
+.imagem-letra {
+	width: 400px;
+	margin-bottom: 120px;
+}
+
+
+.comentario1 {
+	height: 100px;
+	width: 300px;
+}
+
+.comentario2 {
+	height: 100px;
+	width: 300px;
+}
+
+.direitavolver {
+    font-size: 20px;
+}
+
+b {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 50px;
+}
+
+h6 {
+	float:right;
+}
+
+.verde{
+ background-color: #4fbd6c !important;
+ color:white !important;
+ padding-left: 3px;
+ border-radius: 2% !important;
+}
+
+.red{
+	background-color: #f44336 !important;
+  color:white !important;
+  padding-left: 3px;
+  border-radius: 2% !important;
+}
+
+u {
+color: black !important;
+}
+
+.comentae{
+	resize: none;
+}

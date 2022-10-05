@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+    background-image: url(plantafodase.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+ }
+
+ .navbar {
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: .9rem;
+   letter-spacing: .1rem;
+   background: rgba(0, 0, 0, 0.6)!important;
+ }
+
+
+
+ .navbar-nav li {
+     padding-left: .8rem;
+ }
+
+
+
+ .navbar-dark .navbar-nav .nav-link {
+   color: white;
+     padding-top: .8rem;
+ }
+
+
+
+ .navbar-dark .navbar-nav .nav-link.active,
+ .navbar-dark .navbar-nav .nav-link:hover {
+   color: #4fbd6c;
+ }
+
+ form {
+   background-color: white;
+ }
+
+
+
+ .p-3 {
+   padding: $spacer !important;
+ }
+
+
+ .btn {
+   background-color: #4fbd6c;
+   border: 1px solid white;
+     width: 120px;
+     height: 40px;
+ }
+
+ .btn:focus,.btn:active {
+     background-color: #429658;
+     border: 1px solid black;
+   outline: none !important;
+   box-shadow: none;
+ }
+
+
+
+ .btn:hover {
+   background-color: #429658;
+   border: 1px solid black;
+ }
+
+
+
+ .borda_quadrada {
+     border-radius: 0;
+ }
+
+ .container {
+   width: 50%;
+   margin: 0 auto;
+   padding-top: 150px;
+ }
+
+ .corsa {
+   padding: 15px;
+   border: 1px solid black;
+   border-radius: 0;
+ }
+
+ .verde{
+ 	background-color: #4fbd6c !important;
+  color:white !important;
+  padding-left: 3px;
+  border-radius: 2% !important;
+ }
+
+ .red{
+ 	background-color: #f44336 !important;
+   color:white !important;
+   padding-left: 3px;
+   border-radius: 2% !important;
+ }
+
+ u {
+color: black;
+}
+
+@media (max-width: 767px) {
+  .container{
+    width: 90%;
+  }
+}
